@@ -183,7 +183,7 @@ Date:   Thu Dec 6 16:38:43 2007 -0500
     Replace static ChangeLog with dist-hook to generate from git log
 
 commit e10d5cbe4c5ed98ae1856e20a0e9d31321330d53
-Merge: 497dda5... 9d3f9fd...
+Merge: 497dda5 9d3f9fd
 Author: Eric Anholt <eric@anholt.net>
 Date:   Wed Sep 5 08:25:12 2007 -0700
 
