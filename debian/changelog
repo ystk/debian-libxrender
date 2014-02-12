@@ -1,3 +1,32 @@
+libxrender (1:0.9.7-1+deb7u1) wheezy-security; urgency=high
+
+  * integer overflows calculating memory needs for replies [CVE-2013-1987]
+
+ -- Julien Cristau <jcristau@debian.org>  Tue, 14 May 2013 19:28:26 +0200
+
+libxrender (1:0.9.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * Don't require (fake)root for debian/rules clean.
+  * Add Multi-Arch: same for libxrender-dev.
+  * Bump xutils-dev build-dep for newer macros.
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 21 Apr 2012 11:44:34 +0200
+
+libxrender (1:0.9.6-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ Steve Langasek ]
+  * Build for multiarch.
+
+  [ Julien Cristau ]
+  * Add build-arch and (empty) build-indep debian/rules targets.
+  * Remove David Nusinow, Brice Goglin and Andres Salomon from Uploaders.
+  * Bump Standards-Version to 3.9.2.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 12 Jun 2011 10:19:50 +0200
+
 libxrender (1:0.9.6-1) unstable; urgency=low
 
   * New upstream release.
