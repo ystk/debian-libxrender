@@ -5,6 +5,8 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Cyril Brulebois <kibi@debian.org>
 Build-Depends:
  debhelper (>= 8.1.3),
+# dpkg-buildflags --export=configure
+ dpkg-dev (>= 1.16.1),
  pkg-config,
  libx11-dev (>= 2:1.3.3-2),
  x11proto-render-dev,

@@ -1,3 +1,13 @@
+libxrender (1:0.9.8-1) sid; urgency=low
+
+  * New upstream release.
+  * Bump debhelper compat level to 7.
+  * Use dpkg-buildflags.
+  * Disable silent build rules.
+  * Use dh_prep instead of dh_clean -k.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 30 Jun 2013 19:34:07 +0200
+
 libxrender (1:0.9.7-1+deb7u1) wheezy-security; urgency=high
 
   * integer overflows calculating memory needs for replies [CVE-2013-1987]
