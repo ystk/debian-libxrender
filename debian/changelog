@@ -1,3 +1,15 @@
+libxrender (1:0.9.8-1+deb8u1) jessie-security; urgency=hight
+
+  * Non-maintainer upload by the ELTS Team. 
+  * CVE-2016-7949 and CVE-2016-7950
+    Tobias Stoeckmann from the OpenBSD project has discovered a number of
+    issues in the way various X client libraries handle the responses they
+    receive from servers. Insufficient validation of data from the X server
+    could cause out of boundary memory writes in the libXrender library
+    potentially allowing the user to escalate their privileges.
+ 
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 29 Sep 2020 19:03:02 +0200
+
 libxrender (1:0.9.8-1) sid; urgency=low
 
   * New upstream release.
